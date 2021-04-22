@@ -1,2 +1,3 @@
-def area_triangle(side_one, side_two, side_three):
-    return 0.5 * (side_one + side_two + side_three)
+def area_triangle(a, b, c):
+    s = (a + b + c) / 2  
+    return (s*(s-a)*(s-b)*(s-c)) ** 0.5
